@@ -1,0 +1,9 @@
+name: Test wf
+on: [workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo kekw!
+      - name: Checkout
+        uses: actions/checkout@latest
