@@ -15,3 +15,6 @@ jobs:
         run: echo '${{ toJSON(env) }}'
       - name: Dump matrix
         run: echo '${{ toJSON(matrix) }}'
+      - uses: rb-pavlo-f/docker-hw@v1.0.0
+        with:
+          who-to-greet: "PF"
