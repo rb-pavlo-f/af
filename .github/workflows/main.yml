@@ -7,3 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.1.7
       - run: echo kekw!
+      - name: Dump runner
+        run: echo '${{ toJSON(runner) }}'
+      - name: Dump runner
+        run: echo '${{ toJSON(github) }}'
