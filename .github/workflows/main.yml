@@ -6,4 +6,4 @@ jobs:
     steps:
       - run: echo kekw!
       - name: Checkout
-        uses: actions/checkout@latest
+        uses: actions/checkout@v4.1.7
