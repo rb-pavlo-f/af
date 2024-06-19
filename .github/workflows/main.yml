@@ -9,5 +9,9 @@ jobs:
       - run: echo kekw!
       - name: Dump runner
         run: echo '${{ toJSON(runner) }}'
-      - name: Dump runner
+      - name: Dump gh
         run: echo '${{ toJSON(github) }}'
+      - name: Dump env
+        run: echo '${{ toJSON(env) }}'
+      - name: Dump matrix
+        run: echo '${{ toJSON(matrix) }}'
